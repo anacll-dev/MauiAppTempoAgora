@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using MauiAppTempoAgora.Models;
 using System.Diagnostics;
+using Newtonsoft;
 
 namespace MauiAppTempoAgora.Service
 {

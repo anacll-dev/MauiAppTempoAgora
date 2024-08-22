@@ -1,5 +1,4 @@
-﻿using CoreLocation;
-using MauiAppTempoAgora.Models;
+﻿using MauiAppTempoAgora.Models;
 using MauiAppTempoAgora.Service;
 using System.Diagnostics;
 using System.Text;
@@ -34,6 +33,7 @@ namespace MauiAppTempoAgora
                     lbl_latitude.Text = location.Latitude.ToString();
                     lbl_longitude.Text = location.Longitude.ToString();
 
+                    
 
                     Debug.WriteLine("---------------------------------------");
                     Debug.WriteLine(location);
